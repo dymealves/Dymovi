@@ -257,7 +257,12 @@
 #info-container #info-banner {
   display: flex;
   align-items: center;
-  margin-bottom: 2.5em;
+  margin-bottom: 4em;
+}
+
+#info-container #info-banner img {
+  height: 100%;
+  object-fit: cover;
 }
 
 @media(min-width: 1024px) {
